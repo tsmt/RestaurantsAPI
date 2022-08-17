@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestaurantsAPI</name>
+    </assembly>
+    <members>
+        <member name="M:RestaurantsAPI.Controllers.CitiesController.Get">
+            <summary>
+            Возвращает список городов
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RestaurantsAPI.Controllers.CitiesController.CreateCity(System.String)">
+            <summary>
+            Добавляет город
+            </summary>
+            <param name="cityName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestaurantsAPI.Controllers.RestaurantsController.GetByCity(RestaurantsAPI.Extensions.RestaurantParameters)">
+            <summary>
+            Возвращает список ресторанов
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestaurantsAPI.Controllers.RestaurantsController.CreateRestaurant(System.String,System.Int32)">
+            <summary>
+            Добавляет ресторан
+            </summary>
+            <param name="restaurantName">Наименование ресторана</param>
+            <param name="cityId">Идентификатор города</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
